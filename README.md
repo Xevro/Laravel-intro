@@ -1,20 +1,8 @@
-# Web &amp; Mobile Full-Stack - workshop materials on Laravel
-Interactive workshop slides for the course Web &amp; Mobile Full-stack, part of the Professional Bachelor ICT study program @ Odisee, Belgium.
-
-A web-based slideshow containing many PHP/Laravel code examples, which can be interactively executed in the provided Docker multi-container environment.
-
-(CC) Joris Maervoet
+# Web &amp; Mobile Full-Stack - workshop on Laravel
 
 ## Installation instructions
 
-### Running the slides without working code examples
-* Install [git](https://git-scm.com/downloads) and run from your terminal/cmd
-```shell
-git clone https://github.com/mjoris/workshops-wmfs-laravel.git
-```
-* Open the file <code>workshops-wmfs-laravel/app/public/slides/index.html</code> in a browser
-
-### Running the slides with working code examples
+### Setup docker environment
 * Install [git](https://git-scm.com/downloads) and [Docker Desktop](https://www.docker.com/products/docker-desktop).
 * Start the Docker Desktop application
 * Run from your terminal/cmd
