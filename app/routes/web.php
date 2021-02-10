@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $concerts = DB::table('concerts')->get();
+    //$concerts = DB::table('concerts')->get();
+    $concerts = DB::select('select * from concerts where location = ?', ['De Schorre, Boom']);
     dd($concerts);
-    return view('welcome');
 });
