@@ -3,8 +3,8 @@
 version: 2
 updates:
 
-  - package-ecosystem: ""
-    directory: /"
+  - package-ecosystem: "composer"
+    directory: /app"
     schedule:
       # Check for updates to GitHub Actions every weekday
       interval: "daily"
