@@ -1,4 +1,4 @@
-# Web &amp; Mobile Full-Stack - workshop on Laravel
+# Web &amp; Mobile Full-Stack - Laravel
 
 ## Installation instructions
 
